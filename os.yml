@@ -1,0 +1,6 @@
+---
+- name: Get host OS version
+  hosts: all
+  tasks:
+    - name: Print OS version to stdout
+      shell: cat /etc/os-release
